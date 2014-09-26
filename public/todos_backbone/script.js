@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   TodosCollection = Backbone.Collection.extend({
     model: Todo,
-    url: 'http://localhost:3000/todos'
+    url: '/todos'
   });
 
 
